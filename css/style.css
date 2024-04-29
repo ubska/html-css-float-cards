@@ -13,6 +13,7 @@
 
 header{
     text-align: center;
+    margin-bottom: 50px;
 }
 
 header h1{
@@ -30,12 +31,14 @@ header h1{
     float: left;
     background-color: #0f0e17;
     color: white;
-    font-size: small;
+    font-size: medium;
+    line-height: 200%;
+    width: calc(100% / 3);
 }
 
 .wrapp{
     float: left;
-    line-height: 200%;
+    padding-top: 10px;
 }
 
 img{
@@ -47,3 +50,4 @@ img{
 .email{
     color: #338aaa;
 }
+
