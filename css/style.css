@@ -18,3 +18,32 @@ header{
 header h1{
     color: #e53170;
 }
+
+/* main section */
+.row::after {
+    content: ;
+    display: table;
+    clear: both;
+}
+
+.card {
+    float: left;
+    background-color: #0f0e17;
+    color: white;
+    font-size: small;
+}
+
+.wrapp{
+    float: left;
+    line-height: 200%;
+}
+
+img{
+    float: left;
+    width: 25%;
+    margin-right: 10px;
+}
+
+.email{
+    color: #338aaa;
+}
