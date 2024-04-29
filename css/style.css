@@ -18,6 +18,7 @@ header{
 
 header h1{
     color: #e53170;
+    margin-bottom: 20px;
 }
 
 /* main section */
@@ -31,9 +32,10 @@ header h1{
     float: left;
     background-color: #0f0e17;
     color: white;
-    font-size: medium;
+    font-size: small;
     line-height: 200%;
-    width: calc(100% / 3);
+    width: calc(100% / 3 - 20px);
+    margin: 10px;
 }
 
 .wrapp{
